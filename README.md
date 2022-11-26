@@ -11,6 +11,7 @@ Django_Item클래스에 인자값을 그대로 반환하는 get함수들 만들�
 onResponse함수 안에서 str 선언하고 그 str에 result.get함수들 사용해서 출력시도 => 실패
 
  Django_Client라는 레트로핏 인터페이스 생성자 클래스 만들고 Quest_Emotion에서 Django_Client생성자 이용해서 레트로핏 생성 후 출력시도 => 실패
+ 실패사 유=> android.content.Context.getApplicationInfo()' on a null object reference
  
  만약 문제가 api서버의 경로 안에 데이터의 문제였다면 Django_Client에서 생성자로 인터페이스를 만들게 아니라 각 함수별로 만들어 줘야함
  why 감정맞추기 소리맞추기 환경음듣기 별로 자바클래스를 만들어줄 수 없기때문(자바 클래스가 많아지고 함수,변수들도 많아져 복잡해짐)
